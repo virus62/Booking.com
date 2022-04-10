@@ -1,0 +1,184 @@
+* {
+  transition: all 0.35s ease;
+}
+
+body {
+  background: url("../assets/paperr.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99.4vw;
+  height: 97.7vh;
+}
+.form {
+  width: 500px;
+  height: 520px;
+  background: whitesmoke;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+  margin-top: 20px;
+}
+.prijava {
+  width: 150px;
+  height: 40px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.registracija {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.pozicija {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.pozicija2 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin-top: 50px;
+}
+.e-mail {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  height: 30px;
+  width: 160px;
+  background-color: whitesmoke;
+  outline: none;
+}
+.zaporka {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  height: 30px;
+  width: 160px;
+  background-color: whitesmoke;
+  outline: none;
+}
+.predaj {
+  height: 40px;
+  width: 160px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: rgb(49, 177, 49);
+}
+
+.activated {
+  background-color: rgb(49, 177, 49);
+}
+
+.notactivated {
+  background-color: rgb(50, 104, 79);
+}
+
+.pozicija3 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  margin-top: 20px;
+}
+.e-mail2 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  height: 30px;
+  width: 160px;
+  background-color: whitesmoke;
+  outline: none;
+}
+.kor-ime {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  height: 30px;
+  width: 160px;
+  background-color: whitesmoke;
+  outline: none;
+}
+.zaporka2 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  height: 30px;
+  width: 160px;
+  background-color: whitesmoke;
+  outline: none;
+}
+.ponovi2 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  height: 30px;
+  width: 160px;
+  background-color: whitesmoke;
+  outline: none;
+}
+.registracija-sbmt {
+  height: 40px;
+  width: 160px;
+  border: none;
+  background-color: rgb(49, 177, 49);
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.form-main {
+  margin-top: -10px;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.error-border {
+  background-color: rgba(255, 0, 0, 0.5);
+}

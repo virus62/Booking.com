@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/loginAndRegistration.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookingdev</title>
+</head>
+<body>
+    
+    <div class="form">
+        <div class="form-header">
+            <img src="./assets/logo.png" class="logo">
+            <h1 class="naslov">Dobrodošli na Bookingdev!</h1>
+        </div>
+        <div class="form-main">
+            <div class="pozicija" id="pozicija1id">
+                <button class="registracija activated">Prijavi se</button>
+                <button class="prijava notactivated">Registriraj se</button>     
+            </div>
+            <div class="pozicija2 display-none" id="pozicija2id">
+                <input type="email" class="e-mail" placeholder="E-pošta">
+                <input minlength="8" type="password" class="zaporka" placeholder="Zaporka">
+                <button class="predaj submit">Prijavi se!</button>
+            </div>
+            <div class="pozicija3 display-flex" id="pozicija3id">
+                <input type="email" class="e-mail2" placeholder="E-pošta">
+                <input minlength="3" type="text" class="kor-ime" placeholder="Korisničko ime">
+                <input minlength="8"type="password" class="zaporka2" placeholder="Zaporka">
+                <input minlength="8" type="password" class="ponovi2" placeholder="Ponovi zaporku">
+                <button class="registracija-sbmt submit">Registriraj se!</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="module" src="./scripts/loginAndRegistration.js"></script>
+</body>
+</html>

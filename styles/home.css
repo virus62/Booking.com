@@ -1,0 +1,361 @@
+* {
+  transition: all 0.5s ease;
+}
+
+html {
+  height: 100%;
+}
+
+.display-none {
+  display: none !important;
+}
+
+#cool-text {
+  display: table;
+  width: 100%;
+  height: 25vh;
+  font-family: "Lato", sans-serif;
+  color: #888;
+  margin: 0;
+  text-align: center;
+}
+
+#cool-text2 {
+  display: table;
+  width: 100%;
+  height: 25vh;
+  font-family: "Lato", sans-serif;
+  color: #888;
+  margin: 0;
+  text-align: center;
+}
+
+.sve {
+  margin-bottom: 50px;
+}
+
+.fof {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof h1 {
+  font-size: 25px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type 0.5s alternate infinite;
+}
+
+.fof2 h1 {
+  font-size: 25px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type 0.5s alternate infinite;
+}
+
+@keyframes type {
+  from {
+    box-shadow: inset -3px 0px 0px #888;
+  }
+  to {
+    box-shadow: inset -3px 0px 0px transparent;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  margin: 0px 50px;
+}
+
+.content {
+  grid-column: span 2;
+}
+
+.card {
+  height: 200px;
+  padding: 10px;
+  /*background-color: #3fc5ad;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 17.5px;
+  margin-top: 20px;
+  color: white;
+  min-width: 200px;
+  box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card2 {
+  height: 200px;
+  padding: 10px;
+  background-color: #3fc5ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 17.5px;
+  margin-top: 20px;
+  color: white;
+  min-width: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card-button {
+  width: 70%;
+  background: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-button:focus {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}
+
+.card-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.card-button2 {
+  width: 70%;
+  background: #515151;
+  border: 3px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-button2:focus {
+  background: white !important;
+  color: #515151 !important;
+  border: 3px #515151 solid !important;
+}
+
+.card-button2:hover {
+  background: #717171;
+}
+
+.card-button3 {
+  width: 70%;
+  border: 3px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background: none;
+}
+
+.card-button3:focus {
+  background: white;
+  color: #3fc5ad;
+  border: 3px #3fc5ad solid;
+}
+
+.card-button3:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  background: #515151;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.weekday {
+  padding: 12px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 2px;
+}
+
+.weekday-activated {
+  background: white;
+  color: black;
+}
+
+.termini {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.termin {
+  margin: 10px 0;
+  color: #515151;
+}
+
+.termin-alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-from {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 9px;
+  background: #515151;
+  color: white;
+  font-weight: 900;
+  border: 2px solid #515151;
+  height: 100%;
+  width: 125px;
+  font-size: 14px;
+}
+
+.center_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error_message {
+  background-color: red;
+  opacity: 0.5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+}
+
+.success_message {
+  background-color: lime;
+  opacity: 0.5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+}
+
+.reserved-card {
+  background-color: #3fc5ad;
+  padding: 25px;
+  color: white;
+  width: 50%;
+  text-align: left;
+  margin: 20px 0;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+.rezervirano {
+  width: 60%;
+}
+
+.selected-item {
+  position: relative;
+}
+
+.button-x {
+  position: absolute;
+  left: 100%;
+  margin-top: -3px;
+  border: 2px solid red;
+  background: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nedostupni-termini-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.unavalible-time {
+  margin-top: -3px;
+}
+
+.selected-item-div {
+  color: #313131;
+}
+
+.termin-hr {
+  background: black;
+  color: black;
+  width: 100px;
+  margin-top: -16px;
+  margin-bottom: 16px;
+}
+
+.comments {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.add-comment {
+  margin-left: 5%;
+  width: 83.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 10px;
+}
+
+.comment-input {
+  width: 100%;
+  background: #515151;
+  color: white;
+  padding: 7.5px 12.5px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.comment-button {
+  margin-top: 5px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.star-button {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.star-button:hover {
+  opacity: 1;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <title>Booking.dev | Naslovnica</title>
+  </head>
+  <body>
+    <div class="header-image">
+      <div class="header-content">
+        <div class="header-buttonContainer">
+          <a href="home.html">
+            <img
+              src="../assets/logo.png"
+              width="4%"
+              class="js-nav"
+              data-element="logo"
+              target="_blank"
+            />
+          </a>
+
+          <a class="Button kor-ime" data-component="hero" data-element="buttons"
+            >Pozdrav, [korisničko ime]</a
+          >
+          <a class="Button prijava" href="../index.html">Odjavi se</a>
+        </div>
+        <h2 class="header-text">Dobrodošli na Booking.dev</h2>
+        <p class="header-blurb">Vrijeme da preskočiš redove za čekanje?</p>
+
+      </div>
+    <div class="grid-container">
+      <div class="content">
+        <div class="favoriti">
+        <h3>Moji favoriti:</h3>
+        <div id="cool-text">
+          <div class="fof">
+            <h1>Nema favorita :(</h1>
+          </div>
+        </div>
+      </div>
+      <div class="moji-termini">
+        <h3>Moji termini:</h3>
+        <div id="cool-text2">
+          <div class="fof2">
+            <h1>Nema termina :(</h1>
+          </div>
+        </div>
+      </div>
+      <div class="sve">
+          <h3>Dostupne usluge:</h3>
+          <div class="card-container">
+          </div>
+        </div>
+      </div>
+      <div class="selected-item">
+        <div class="display-none">
+          <h4>Odaberi vrijeme termina:</h4>
+          <div class="termin">
+            <div class="termin-od">
+              <h3>Od</h3>
+              <div class="termin-alignment">
+                <input class="time-from" type="number" max="23" min="0" placeholder="Sati">
+                <p style="font-size:20px; font-weight:900; color: #515151;">:</p>
+                <input class="time-from" type="number" max="59" min="0" placeholder="Minute">
+              </div>
+            </div>
+            <div class="termin-do">
+              <h3>Do</h3>
+              <div class="termin-alignment">
+                <input class="time-from" type="number" max="23" min="0" placeholder="Sati">
+                <p style="font-size:20px; font-weight:900; color: #515151;">:</p>
+                <input class="time-from" type="number" max="59" min="0" placeholder="Minute">
+              </div>
+              <div class="nedostupni-termini">
+                <h3>Nedostupni termini:</h3>
+                <div class="termin-alignment nedostupni-termini-div" style="margin-top: -15px">
+                  <p style="color: gray;" class="nema-nedostupnih-termina">Nema nedostupnih termina</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center_button">
+            <button class="rezerviraj-termin card-button2">Rezerviraj</button>
+          </div>
+          <div>
+            <h3 style="color: #515151; margin: 40px 0">Komentari:</h3>
+            <div class="comments"></div>
+            <form class="add-comment">
+              <input type="text" class="comment-input" placeholder="Unesi komentar" required>
+              <button type="submit" class="comment-button card-button2">Dodaj komentar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../scripts/home.js"></script>
+  </body>
+</html>
